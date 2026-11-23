@@ -1,0 +1,19 @@
+{
+  "name": "rzl-nexos",
+  "version": "1.0.0",
+  "description": "Nexos Voice & Text Platform (RZL Apps)",
+  "author": "RZL Apps",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -r --parallel run dev",
+    "dev:web": "pnpm -r --parallel run dev",
+    "dev:desktop": "concurrently \"pnpm --filter @rzl-nexos/server dev\" \"pnpm --filter @rzl-nexos/app electron:dev\"",
+    "build": "pnpm -r run build",
+    "start": "pnpm -r run start",
+    "install:all": "pnpm install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "typescript": "^5.0.0"
+  }
+}

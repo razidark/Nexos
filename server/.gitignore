@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+
+# Local data store — contains user account records (email, password hash).
+# Never commit it; a fresh server recreates it on first run.
+nexos_store.json
+nexos_store.json.*

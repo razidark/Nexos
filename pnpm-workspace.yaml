@@ -1,0 +1,6 @@
+packages:
+  - "app"
+  - "server"
+allowBuilds:
+  electron-winstaller: true
+  esbuild: true
