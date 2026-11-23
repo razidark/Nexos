@@ -1,2 +1,10 @@
 ﻿node_modules/
+dist*/
+build/
+out/
+*.exe
+*.dmg
+*.AppImage
+*.blockmap
+*.snap
 server/nexos_store.json
