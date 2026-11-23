@@ -8,3 +8,8 @@ out/
 *.blockmap
 *.snap
 server/nexos_store.json
+
+.env
+.env.local
+.env.*.local
+*.log
